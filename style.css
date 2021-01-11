@@ -1160,7 +1160,6 @@ box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.20);
 	{
 	display: grid;
 	grid-template-rows: 15.5rem 15.5rem 15.5rem 15.5rem 15.5rem 15.5rem;
-	grid-template-columns: 30.5rem;	
 	justify-content: center;
   	grid-row-gap:2.5rem;
   	margin-top: 25px;
