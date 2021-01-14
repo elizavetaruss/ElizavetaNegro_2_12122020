@@ -5,15 +5,13 @@
 	margin:0 auto;
 	}
 
-	@media screen and (max-width:550px)
-	{
+@media screen and (max-width:550px)
+{
 	.wrapper
 	{
-	margin:0 auto;
 	width: 90%;
 	}
-	}
-
+}
 
 header
 {
@@ -23,16 +21,12 @@ header
 	padding-top: 20px;
 }
 
-
-
 *{
 	font-family:'Raleway', Arial, serif;
 	font-size: 0.9rem;
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-
-
 }
 
 a {
@@ -43,7 +37,6 @@ a {
 img {
 	width: 100%;
 }
-
 
 h4
 {
@@ -66,12 +59,10 @@ h4
 
 hr
 {
-	
-	display:none;
+display:none;
 }
 
 nav a
-
 {
 list-style-type: none;
 padding: 0px 30px 0px 30px;
@@ -101,35 +92,16 @@ padding-top: 30px;
 {
 	.logo
 {
-	
 	width: 15%;
 }
-
-nav a
-{
-	
-	font-size: 1.2rem;
-}
-
-
-a strong
-{
-	
-	font-size: 1.2rem;
-}
-
 	
 }
 
 /* FIN */
-
-
 /* HEADER pour mobile */
-
 
 @media screen and (max-width:550px)
 {
-
 
 .logo
 {
@@ -141,31 +113,23 @@ a strong
 }
 
 nav
-{
-	
+{	
 margin-top: 80px;
 margin-right:0;
 margin-bottom: 30PX;
-
 }
 
 nav a
-
 {
-list-style-type: none;
 padding: 0px 0px 0px 0px;
-
 }
 
-
 #nav_act
-
 {
 position: absolute;
 left: 12%;
 font-size: 1.1rem;
 color: #0065FC;
-
 }
 
 
@@ -183,7 +147,6 @@ font-size: 1.1rem;
 position: absolute;
 right: 30px;
 top:35px;
-
 }
 
 hr
@@ -211,7 +174,7 @@ hr
 #two_lines
 
 {
-	margin-bottom: 30px;
+margin-bottom: 30px;
 }
 
 nav a:hover
@@ -220,10 +183,7 @@ nav a:hover
 border-top: none;
 padding: 0px;
 }
-
-
 }
-
 
 /* FIN */
 
@@ -245,9 +205,8 @@ padding: 0px;
 {
 	border: 1px;
 	background: #f2f2f2;
-	border:1px solid #f2f2f2;
 	border-radius: 12px 0px 0px 12px;
-	padding: 10px;
+	padding: 9px;
 }
 
 .icon_loupe
@@ -259,18 +218,15 @@ display: none;
 {
 	border: 1px;
 	background: #0065FC;
-	border:1px solid #0065FC;
 	border-radius: 0 12px 12px 0;
-	padding: 10px;
+	padding: 9px;
 }
 
 a[class="Rechercher"]
 {
-text-decoration: none;
 font-weight: 600;
 color: white;
 font-size: 15px;
-
 }
 
 /* Recherche pour mobile */
@@ -287,9 +243,8 @@ display: none;
 
 {
 	display: flex;
-	border: 1px;
 	background: #0065FC;
-	border:1px solid #0065FC;
+	border:1px solid;
 	border-radius:12px;
 	padding: 10px;
 	margin-left: -20PX;
@@ -383,32 +338,27 @@ display: none;
 
 	.filterlink{
 	border-radius: 2rem;
-	margin-bottom: 10PX;
 	height: 3rem;
 	padding: 10px;
+	margin-bottom: 10px;
 	}
 
 	.text h5{
 
 		font-size: 1.1rem;
 		padding-left: 7px;
-
 	}
 
 	.icon
 	{
-
 	height: 3rem;
 	width: 3rem;
-		
 	}
 
 	.item
 	{
-	position: relative;	
 	margin-right: 10px;
 	margin-left: 0px;
-
 	}
 
 	
@@ -423,7 +373,6 @@ display: none;
 {    
 	.titrefiltres
 	{
-
 		font-size: 1.1rem;
 		width: 100%;
 		margin-bottom:10px;
@@ -431,15 +380,11 @@ display: none;
 	
 	.lign
 	{	
-
 	flex-wrap: wrap;
-	
 	}
 
 	.filterlink{
-	border-radius: 3rem;
 	margin-bottom: 10PX;
-	border: 2px solid #f4f4f4;
 	height: 3.5rem;
 	padding: 10px;
 	}
@@ -457,23 +402,17 @@ display: none;
 	{
 	height: 3.5rem;
 	width: 3.5rem;
-	border-radius: 50%;
-	
-	
 	}
 
 	.item
 	{
-	position: relative;	
 	margin-right: 10px;
 	margin-left: 0px;
-
 	}
 
 }
 
 /* FIN */
-
 
 .lign_info
 
@@ -503,7 +442,6 @@ display: none;
 {
 	font-size: 0.8rem;
 	margin-left: 5px;
-
 }
 
 /* LIGNES pour TABLETTE */
@@ -517,27 +455,7 @@ display: none;
 	margin-left: 9px;
 
 	}
-    
-
-    .info_icon
-
-{
-	
-	font-size: 0.5rem;
-	height: 1.5rem;
-	width: 1.5rem;
-
-
-}
-.lign_info
-
-{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-}
-
-	}
+   	}
 
 
 	/* FIN */
@@ -552,45 +470,32 @@ display: none;
 	{
 	font-size: 1.2rem;
 	margin-left: 9px;
-
 	}
     
 
     .info_icon
 
 {
-	
 	font-size: 0.9rem;
 	height: 1.7rem;
 	width: 2.2rem;
-
-
 }
+
 .lign_info
 
 {
-	display: flex;
-	flex-direction: row;
 	align-items: flex-start;
 }
-
 	}
 
-
-	/* FIN */
-
-
+/* FIN */
 #part_heb_fav
 {
 	display: flex;
 	flex-direction:  row;
 	justify-content: space-between;
 	padding-top: 20px;
-
-
 }
-
-
 
 .hebergements
 {
@@ -602,25 +507,16 @@ display: none;
 	background: #f4f4f4;
 	border-radius: 15px;
 	width: 65%;
-
-	
-
 }
 
 
 #hebergements_ancre
 
 {
-	
 	width: 100%;
 	padding-left: 20px;
 	padding-top: 20px;
-
-
-
 }
-
-
 
 
 .hebergement_block
@@ -631,8 +527,7 @@ display: none;
 	background: white;
 	border-radius: 15px;
 	margin-top: 20px;
-	-webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.20); 
-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.20);
+	box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.20); 
 }
 
 .hotel
@@ -647,13 +542,9 @@ box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.20);
 
 .hebergement_text
 {
-
 	font-size: 1.1rem;
 	padding-left:15px;
 	padding-bottom: 3px;
-
-
-
 }
 
 
@@ -661,7 +552,6 @@ box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.20);
 .hebergement_small_text
 
 {
-
 padding-left:15px;
 padding-bottom: 8px;
 }
@@ -674,15 +564,12 @@ padding-bottom: 8px;
 	font-size: 0.6rem;
 	color: #0065fc;
 	padding-left:15px;
-
-
 }
 
 .grey_star
 {
 	color:#f2f2f2;
 }
-
 
 #afficher
 {
@@ -701,10 +588,7 @@ aside
 	background: #f4f4f4;
 	border-radius: 15px;
 	width: 32%;
-	
-	
 }
-
 
 	#titre_populaires
 	{
@@ -722,15 +606,11 @@ aside
 	background: white;
 	border-radius: 15px;
 	margin-top: 20px;
-	-webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.20); 
-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.20);
-margin-bottom: 30Px;
-margin-left: 5%;
+	box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.20);
+	margin-bottom: 30Px;
+	margin-left: 5%;
 
 	}
-
-
-
 .hotel_side
 {
 	width: 50%;
@@ -750,7 +630,6 @@ margin-left: 5%;
 	margin: 10px;
 	margin-top: 18px;
 	font-size: 1.1rem;
-
 }
 
 .populaire_small_text
@@ -767,8 +646,6 @@ margin-left: 5%;
 	color: #0065fc;
 }
 
-
-
 /* SECTION pour TABLETTE */
 
 @media screen and (min-width:550px) and (max-width: 1100Px)
@@ -777,15 +654,12 @@ margin-left: 5%;
 	
 	#part_heb_fav
 	{
-
 	flex-direction: column-reverse;
 	}
 
 	aside
 
 	{
-	justify-content: space-between;
-	
 	width: 100%;
 	margin-bottom: 30PX;
 	margin-left: 0;
@@ -796,10 +670,8 @@ margin-left: 5%;
 	{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
 	}
 
-	
 
 	.hotel_side
 {
@@ -816,9 +688,7 @@ margin-left: 5%;
 .text_populaire
 {
 	margin-left: 10px;
-	margin-top: 18px;
 	font-size: 1.3rem;
-
 }
 
 .stars_side
@@ -830,21 +700,16 @@ margin-left: 5%;
 .hebergements
 {
 	width: 100%;
-
 }
 
 	.hebergement_block
-
 	{
-	width: 28%;
 	height: 100%;
 	}
 
 	.hotel
 	{
-
     height: 150px;
-    padding: 4px;
     }
 
     .stars
@@ -857,7 +722,6 @@ margin-left: 5%;
     padding-bottom: 20px;
 	font-size: 1.35rem;
 	}
-
 }
 
 /* FIN */
@@ -868,40 +732,32 @@ margin-left: 5%;
 @media screen and (max-width:550px)
 {
 
-
 	#part_heb_fav
 	{
-
 	flex-direction: column-reverse;
 	}
 
 	aside
 
 	{
-	
 	width: 100%;
 	border-radius: 0;
 	}
 
-
-		.populaires_block
+	.populaires_block
 	{
 	height: 140PX;
-
 	}
 
 	.hotel_side
 	{
-	
 	height: 100%;
 	}
 
 	.text_block
 	{
-	margin-top: 0 auto;
+	margin-top: 0;
 	}
-
-	
 
 	.hebergements
 	{
@@ -909,35 +765,25 @@ margin-left: 5%;
 	width: 100%;
 	margin-top: 15px;
 	background: transparent;
-	justify-content: center;
 	}
 
 	.hebergement_block
-
 	{
 	width: 95%;
-	margin:auto;
-	margin-top: 20px;
-
+	margin-left: auto;
+	margin-right: auto;
 	}
 
 	#afficher
 	{
-
 	padding-top: 20px;
-	font-size: 1.05rem;
-
 	}
 	
 }
 
-
 /* FIN */
 
-
-
 /* ACTIVITES pour desktop */
-
 
 #activites_ancre
 {
@@ -952,7 +798,6 @@ margin-left: 5%;
 	grid-column-gap:2.5rem;
   	grid-row-gap:2.5rem;
   	margin-top: 25px;
-
 }
 
 
@@ -960,14 +805,15 @@ margin-left: 5%;
 {
 	background: white;
 	border-radius: 15px;
-	-webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.20); 
-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.20);
-
+	box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.20);
 }
 
 .photo_act
 
 {
+	object-fit: cover;
+    border-radius: 15px 15px 0 0;
+    width: 100%;
     height: 90%;
 }
 
@@ -991,15 +837,14 @@ box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.20);
 
 #photo_act_size_3
 {
-
- height: 75%;
+height: 75%;
 }
 
 
 #photo_act_size_4
 
 {
-	height: 81%;
+height: 81%;
 }
 
 
@@ -1051,12 +896,10 @@ box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.20);
 {
 .grid
 	{
-	grid-template-rows: 12.5rem 12.5rem 12.5rem 12.5rem;
-
+	grid-template-rows: 12.5rem 12.5rem 12.5rem 12.5rem;	
 	}
 
 	.photo_act
-
 	{
     height: 85%;
 	}
@@ -1066,7 +909,6 @@ box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.20);
 	margin-top:17px;
 	font-size: 1.3em;
 	}
-
 
 	#photo_act_size
 	{
@@ -1078,13 +920,10 @@ box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.20);
 	height: 66%;
 	}
 
-
 	#photo_act_size_3
 	{
-
  	height: 66%;
 	}
-
 
 	#photo_act_size_4
 
@@ -1094,20 +933,16 @@ box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.20);
 
 	#activites_un
 	{
-	grid-column: 1/2;
 	grid-row:1/3;
 	}
 
-
 	#activites_deux
 	{
-	grid-column: 2/3;
 	grid-row:1/2;
 	}
 
 	#activites_trois
 	{
-	grid-column: 2/3;
 	grid-row:2/3;
 	}
 
@@ -1140,21 +975,14 @@ box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.20);
 
 @media screen and (max-width:550px)
 {
-	
  	.grid
 	{
 	grid-template-rows: 15.5rem 15.5rem 15.5rem 15.5rem 15.5rem 15.5rem;
-  	grid-row-gap:2.5rem;
-
 	}
-
 
  .photo_act
 
    { 
-	object-fit: cover;
-    border-radius: 15px 15px 0 0;
-    width: 100%;
     height: 80%;
 	}
 
@@ -1163,41 +991,20 @@ box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.20);
 	padding-bottom: 5px;
 	}
 
-
-	#photo_act_size
-	{
-	height: 80%;
-	}
-
 	#photo_act_size_2
 	{
 	height: 80%;
 	}
 
-
 	#photo_act_size_3
 	{
-
 	 height: 80%;
 	}
 
-
-	#photo_act_size_4
-
-	{
-	height: 80%;
-	}
-
-
-
 	#activites_un
 	{
-	grid-column: 1/2;
 	grid-row:1/2;
-
-
 	}
-
 
 	#activites_deux
 	{
@@ -1229,17 +1036,15 @@ box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.20);
 	{
 	grid-column: 1/2;
 	grid-row:6/7;
-	}
-
-	
+	}	
 }
 
 /* FIN */
 
-
 footer
 {
 	display: flex;
+
 	background-color: #f4f4f4;
 	align-items: flex-start;
 	flex-direction: row;
@@ -1262,33 +1067,27 @@ footer
 }
 
 
-
 .footer_list
 {
-
 	list-style-type: none;
 	padding: 3px;
 }
-
 
 /* FOOTER pour TABLETTE */
 
 @media screen and (min-width:550px) and (max-width: 1100Px)
 
 {
-
 	footer
 	{
 	justify-content: space-between;
-	margin-top: 30px;
+	list-style-type: none;
 	}
-
 
 	.titre_footer
 	{
 	font-size: 1.25rem;
 	}
-
 	.text_size
 	{
 	font-size: 1.1rem;
@@ -1304,24 +1103,14 @@ footer
 	footer
 	{
 	flex-direction: column;
-	padding-bottom: 10px;
 	padding-top: 10px;
 	margin-top: 30px;
 	}
 
 	.footer_block
-
 	{
 	width: 100%;
 	}
-
-	.titre_footer
-	{
-	font-size: 1.05rem;
-	margin-bottom: 9px;
-	margin-top: 20px;
-	}
-
 	
 }
 
